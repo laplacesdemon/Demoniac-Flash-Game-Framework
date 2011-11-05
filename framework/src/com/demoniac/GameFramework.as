@@ -1,8 +1,5 @@
 package com.demoniac
 {
-	import com.demoniac.event.CustomEventLevelScreenUpdate;
-	import com.demoniac.event.CustomEventScoreBoardUpdate;
-	import com.demoniac.event.CustomEventSound;
 	import com.demoniac.screen.BasicScreen;
 	import com.demoniac.screen.NotificationScreen;
 	import com.demoniac.state.State;
@@ -13,10 +10,8 @@ package com.demoniac
 	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	import flash.events.TimerEvent;
-	import flash.geom.Point;
 	import flash.text.TextFormat;
 	import flash.utils.Timer;
-	import flash.utils.getTimer;
 	
 	public class GameFramework extends MovieClip {
 		
